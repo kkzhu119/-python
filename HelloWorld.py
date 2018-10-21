@@ -25,7 +25,10 @@ python中的基本数据类型:
                    字符串截取如下
 
 '''
-
+# python文件类型
+# 源代码：以py为扩展名，由Python程序解释，不需要编译
+# 字节代码:Python源文件经编译后生成的扩展名为pyc的文件   编译方法-- import py_compile    py_compile.compile("hello.py")
+# 优化代码：经过优化的源文件，扩展名为".pyo"  python -O -m py_compile hello.py;
 
 '''
 python中的多行语句用反斜杠\来实现
